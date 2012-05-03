@@ -1,0 +1,25 @@
+Simple tool for bulk export / query from SEMRush.
+
+Instructions:
+
+1. Open config.php
+2. Replace ADD YOUR SEM RUSH API KEY HERE with your SEMRush API key
+3. Save config.php
+4. Upload to webserver and;
+a. browse to /organic-rankings.php for bulk checking the organic keywords for a list of domains, or;
+b. browse to /related-keywords.php for bulk checking the related keywords for a list of keywords.
+
+Warning.
+
+There is currently no limiting or throttling on the number of requests made, this breaches the terms of use for the SEMRush API.
+
+"You may not perform more than 10 requests per second, nor more than 2 simultaneous requests."
+
+Use at your own risk.
+
+
+Thanks to David Vielmetter for the export to csv code
+http://davidvielmetter.com/tricks/howto-convert-an-html-table-to-csv-using-php/
+
+SEMRush API Reference
+http://www.semrush.com/api.html
